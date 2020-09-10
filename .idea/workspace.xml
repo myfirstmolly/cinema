@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2513e347-48b3-4811-8753-08b0368ea51d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema.uml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/CashTransactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/CashTransactions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/CheckerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/CheckerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/MainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ManagerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/SellerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/SellerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Hall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Hall.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +33,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -71,7 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599724825650</updated>
       <workItem from="1599724829894" duration="1409000" />
-      <workItem from="1599730271794" duration="2877000" />
+      <workItem from="1599730271794" duration="4124000" />
+      <workItem from="1599767273567" duration="451000" />
     </task>
     <task id="LOCAL-00001" summary="Readme">
       <created>1599726621052</created>
@@ -80,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599726621052</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="minor changes :)">
+      <created>1599736922051</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599736922051</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +103,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme" />
+    <MESSAGE value="minor changes :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes :)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="423" y="115" key="#Java" timestamp="1599726156580">
@@ -117,33 +123,37 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1599735347449" />
-    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1599726620837">
+    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1599736921541">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1599726620837" />
-    <state width="792" height="255" key="GridCell.Tab.0.bottom" timestamp="1599736865268">
+    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1599736921541" />
+    <state width="790" height="265" key="GridCell.Tab.0.bottom" timestamp="1599767751624">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="792" height="255" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599736865268" />
-    <state width="792" height="255" key="GridCell.Tab.0.center" timestamp="1599736865266">
+    <state width="790" height="265" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599767751624" />
+    <state width="790" height="265" key="GridCell.Tab.0.center" timestamp="1599767751623">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="792" height="255" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599736865266" />
-    <state width="792" height="255" key="GridCell.Tab.0.left" timestamp="1599736865265">
+    <state width="790" height="265" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599767751623" />
+    <state width="790" height="265" key="GridCell.Tab.0.left" timestamp="1599767751622">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="792" height="255" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599736865265" />
-    <state width="792" height="255" key="GridCell.Tab.0.right" timestamp="1599736865267">
+    <state width="790" height="265" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599767751622" />
+    <state width="790" height="265" key="GridCell.Tab.0.right" timestamp="1599767751624">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="792" height="255" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599736865267" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1599726625499">
+    <state width="790" height="265" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599767751624" />
+    <state x="208" y="31" key="SettingsEditor" timestamp="1599767452519">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599726625499" />
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1599730271774">
+    <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1599767452519" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1599736924757">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1599730271774" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599736924757" />
+    <state x="413" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1599767283753">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="413" y="298" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1599767283752" />
   </component>
 </project>

@@ -3,10 +3,11 @@ package entities;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.UUID;
 
 public final class Hall {
 
-    private final int code;
+    private final UUID code;
     private String name;
     private final List<List<Seat>> seats;
 
@@ -22,7 +23,7 @@ public final class Hall {
             this.seats.add(temp);
         }
 
-        this.code = Objects.hash(name, this.seats);
+        this.code = UUID.randomUUID();
     }
 
     @Override
@@ -43,8 +44,8 @@ public final class Hall {
                 '}';
     }
 
-    public int getCode() {
-        return code;
+    public String getCode() {
+        return code.toString();
     }
 
     public String getName() {

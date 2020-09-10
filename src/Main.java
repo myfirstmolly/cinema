@@ -36,9 +36,15 @@ public class Main {
         System.out.println(mainService.getFilmSeancesInfo(trainspotting));
         System.out.println(mainService.getFilmSeancesInfo(seven));
 
+        System.out.println("Today's visitors:");
         Visitor visitor1 = new Visitor("Marie", 18, 500);
+        System.out.println(visitor1.getName() + ", " + visitor1.getAge() + " years old");
         Visitor visitor2 = new Visitor("Dan", 13, 400);
+        System.out.println(visitor2.getName() + ", " + visitor2.getAge() + " years old");
         Visitor visitor3 = new Visitor("Andrew", 32, 200);
+        System.out.println(visitor3.getName() + ", " + visitor3.getAge() + " years old");
+
+        System.out.println();
 
         Ticket ticket1 = mainService.sellTicket(mainService.getSeance(0), 3, 5, visitor1);
         Ticket ticket2 = mainService.sellTicket(mainService.getSeance(1), 6, 5, visitor2);
