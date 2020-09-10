@@ -3,396 +3,386 @@
   <ID>JAVA</ID>
   <OriginalElement>entities.Cinema</OriginalElement>
   <nodes>
-    <node x="1423.2251226378617" y="803.0">entities.Hall</node>
-    <node x="523.9792059349479" y="1923.0">services.SellerService</node>
-    <node x="411.9792059349479" y="1527.0">entities.Worker</node>
-    <node x="773.7250833695803" y="2196.0">services.CashTransactions</node>
-    <node x="585.2876226378615" y="12.0">java.io.Serializable</node>
-    <node x="542.0376226378615" y="793.0">entities.Film</node>
-    <node x="1076.9991669083179" y="1188.0">entities.Seance</node>
-    <node x="1185.604205934948" y="1548.0">entities.Seances</node>
-    <node x="1691.1626226378617" y="1933.0">entities.Cinema</node>
-    <node x="525.5376226378615" y="594.0">entities.Rating</node>
-    <node x="439.03762263786155" y="103.0">java.lang.Enum</node>
-    <node x="1300.1626226378617" y="2185.0">services.ManagerService</node>
-    <node x="135.5" y="1210.0">entities.Visitor</node>
-    <node x="1445.7251226378617" y="574.0">entities.Seat</node>
-    <node x="887.9792059349479" y="1483.0">entities.Ticket</node>
-    <node x="177.01492022066213" y="1912.0">services.CheckerService</node>
-    <node x="414.28762263786155" y="0.0">java.lang.Comparable</node>
-    <node x="1029.625" y="2550.0">services.MainService</node>
-    <node x="24.20300984900291" y="3007.0">Main</node>
+    <node x="198.0562120099105" y="803.0">entities.Hall</node>
+    <node x="1010.0562120099105" y="1944.0">services.SellerService</node>
+    <node x="422.85171216475146" y="1517.0">entities.Worker</node>
+    <node x="1277.3374620099105" y="2237.0">services.CashTransactions</node>
+    <node x="1180.6812120099105" y="12.0">java.io.Serializable</node>
+    <node x="934.3062120099105" y="1148.0">entities.Seance</node>
+    <node x="1030.9312120099105" y="793.0">entities.Film</node>
+    <node x="986.9183020410229" y="1538.0">entities.Seances</node>
+    <node x="54.5" y="1170.0">entities.Cinema</node>
+    <node x="1120.9312120099105" y="594.0">entities.Rating</node>
+    <node x="159.85171216475146" y="1922.0">services.ManagerService</node>
+    <node x="220.5562120099105" y="574.0">entities.Seat</node>
+    <node x="1489.9725454980849" y="1170.0">entities.Visitor</node>
+    <node x="1034.4312120099105" y="103.0">java.lang.Enum</node>
+    <node x="1385.0562120099105" y="1473.0">entities.Ticket</node>
+    <node x="555.3239343869736" y="1933.0">services.CheckerService</node>
+    <node x="1009.6812120099105" y="0.0">java.lang.Comparable</node>
+    <node x="1628.9988612875584" y="3047.0">Main</node>
+    <node x="816.9808400311124" y="2600.0">services.MainService</node>
   </nodes>
   <notes />
   <edges>
     <edge source="services.ManagerService" target="entities.Seance">
-      <point x="-23.125" y="-122.5" />
-      <point x="1462.1311113527624" y="1453.0" />
-      <point x="1276.1658335749846" y="1453.0" />
-      <point x="79.66666666666663" y="112.5" />
+      <point x="-49.0" y="-122.5" />
+      <point x="282.35171216475146" y="1802.0" />
+      <point x="297.8460798188007" y="1802.0" />
+      <point x="297.8460798188007" y="1423.0" />
+      <point x="947.5839897876883" y="1423.0" />
+      <point x="-106.22222222222217" y="112.5" />
     </edge>
     <edge source="services.SellerService" target="entities.Seance">
-      <point x="98.0" y="-100.5" />
-      <point x="793.4792059349479" y="1872.0" />
-      <point x="1131.104205934948" y="1872.0" />
-      <point x="1131.104205934948" y="1453.0" />
-      <point x="1143.3880557972068" y="1453.0" />
-      <point x="-53.111111111111086" y="112.5" />
+      <point x="0.0" y="-100.5" />
+      <point x="1181.5562120099105" y="1862.0" />
+      <point x="1245.9183020410228" y="1862.0" />
+      <point x="1245.9183020410228" y="1433.0" />
+      <point x="1080.361767565466" y="1433.0" />
+      <point x="26.55555555555543" y="112.5" />
     </edge>
     <edge source="services.MainService" target="services.SellerService">
-      <point x="-45.31578947368416" y="-178.5" />
-      <point x="1127.8092105263158" y="2470.0" />
-      <point x="624.25" y="2470.0" />
-      <point x="624.25" y="2165.0" />
-      <point x="652.6042059349479" y="2165.0" />
+      <point x="60.42105263157896" y="-178.5" />
+      <point x="1020.9018926626914" y="2530.0" />
+      <point x="1138.6812120099105" y="2530.0" />
       <point x="-42.875" y="100.5" />
     </edge>
     <edge source="services.SellerService" target="entities.Ticket">
-      <point x="49.0" y="-100.5" />
-      <point x="744.4792059349479" y="1862.0" />
-      <point x="982.1458726016147" y="1862.0" />
-      <point x="-18.833333333333314" y="144.5" />
+      <point x="98.0" y="-100.5" />
+      <point x="1279.5562120099105" y="1892.0" />
+      <point x="1479.2228786765772" y="1892.0" />
+      <point x="-18.833333333333258" y="144.5" />
     </edge>
     <edge source="services.MainService" target="entities.Worker">
-      <point x="-75.52631578947376" y="-178.5" />
-      <point x="1097.5986842105262" y="2490.0" />
-      <point x="513.4792059349479" y="2490.0" />
+      <point x="-45.31578947368416" y="-178.5" />
+      <point x="915.1650505574282" y="2520.0" />
+      <point x="524.3517121647515" y="2520.0" />
       <point x="0.0" y="100.5" />
     </edge>
+    <edge source="services.MainService" target="entities.Cinema">
+      <point x="-105.73684210526312" y="-178.5" />
+      <point x="854.7439979258493" y="2560.0" />
+      <point x="130.22107981880072" y="2560.0" />
+      <point x="130.22107981880072" y="1453.0" />
+      <point x="94.75" y="1453.0" />
+      <point x="-40.25" y="90.5" />
+    </edge>
     <edge source="services.MainService" target="services.CashTransactions">
-      <point x="-30.21052631578948" y="-178.5" />
-      <point x="1142.9144736842104" y="2460.0" />
-      <point x="857.9750833695803" y="2460.0" />
+      <point x="75.52631578947376" y="-178.5" />
+      <point x="1036.0071558205861" y="2540.0" />
+      <point x="1361.5874620099105" y="2540.0" />
       <point x="-84.25" y="111.5" />
     </edge>
-    <edge source="services.MainService" target="entities.Cinema">
-      <point x="105.73684210526312" y="-178.5" />
-      <point x="1278.8618421052631" y="2510.0" />
-      <point x="1771.6626226378617" y="2510.0" />
-      <point x="0.0" y="90.5" />
-    </edge>
     <edge source="services.ManagerService" target="entities.Worker">
-      <point x="-161.875" y="-122.5" />
-      <point x="1323.2876226378617" y="2165.0" />
-      <point x="1348.816705934948" y="2165.0" />
-      <point x="1348.816705934948" y="1822.0" />
-      <point x="581.1458726016147" y="1822.0" />
-      <point x="67.66666666666674" y="100.5" />
+      <point x="98.0" y="-122.5" />
+      <point x="429.35171216475146" y="1832.0" />
+      <point x="479.2406010536404" y="1832.0" />
+      <point x="-45.111111111111086" y="100.5" />
     </edge>
     <edge source="services.ManagerService" target="entities.Film">
-      <point x="69.375" y="-122.5" />
-      <point x="1554.5376226378617" y="2165.0" />
-      <point x="1545.9334167029137" y="2165.0" />
-      <point x="1545.9334167029137" y="1108.0" />
-      <point x="789.5376226378615" y="1108.0" />
-      <point x="112.5" y="122.5" />
+      <point x="-98.0" y="-122.5" />
+      <point x="233.35171216475146" y="1792.0" />
+      <point x="286.8460798188007" y="1792.0" />
+      <point x="286.8460798188007" y="1128.0" />
+      <point x="1053.4312120099105" y="1128.0" />
+      <point x="-112.5" y="122.5" />
     </edge>
     <edge source="services.MainService" target="services.CheckerService">
-      <point x="-90.63157894736844" y="-178.5" />
-      <point x="1082.4934210526314" y="2500.0" />
-      <point x="308.40667025690914" y="2500.0" />
-      <point x="308.40667025690914" y="2155.0" />
-      <point x="391.51492022066213" y="2155.0" />
+      <point x="-15.105263157894797" y="-178.5" />
+      <point x="945.3755768732176" y="2500.0" />
+      <point x="732.5562120099105" y="2500.0" />
+      <point x="732.5562120099105" y="2217.0" />
+      <point x="769.8239343869736" y="2217.0" />
       <point x="71.5" y="111.5" />
     </edge>
     <edge source="services.SellerService" target="entities.Worker">
-      <point x="-147.0" y="-100.5" />
-      <point x="548.4792059349479" y="1832.0" />
-      <point x="536.0347614905036" y="1832.0" />
-      <point x="22.555555555555657" y="100.5" />
-    </edge>
-    <edge source="entities.Ticket" target="entities.Seance">
-      <point x="94.16666666666663" y="-144.5" />
-      <point x="1095.1458726016144" y="1463.0" />
-      <point x="1116.8325002416514" y="1463.0" />
-      <point x="-79.66666666666663" y="112.5" />
+      <point x="-98.0" y="-100.5" />
+      <point x="1083.5562120099105" y="1802.0" />
+      <point x="614.5739343869736" y="1802.0" />
+      <point x="90.22222222222217" y="100.5" />
     </edge>
     <edge source="services.CheckerService" target="entities.Rating">
-      <point x="-40.85714285714289" y="-111.5" />
-      <point x="279.15777736351924" y="1792.0" />
-      <point x="346.99999999999994" y="1792.0" />
-      <point x="346.99999999999994" y="773.0" />
-      <point x="563.0376226378615" y="773.0" />
-      <point x="-7.5" y="59.5" />
-    </edge>
-    <edge source="Main" target="entities.Rating">
-      <point x="-72.0" y="-26.5" />
-      <point x="32.20300984900291" y="2987.0" />
-      <point x="15.0" y="2987.0" />
-      <point x="15.0" y="753.0" />
-      <point x="533.0376226378615" y="753.0" />
+      <point x="0.0" y="-111.5" />
+      <point x="698.3239343869736" y="1832.0" />
+      <point x="717.8897306124514" y="1832.0" />
+      <point x="717.8897306124514" y="753.0" />
+      <point x="1128.4312120099105" y="753.0" />
       <point x="-37.5" y="59.5" />
     </edge>
+    <edge source="entities.Ticket" target="entities.Seance">
+      <point x="-94.16666666666674" y="-144.5" />
+      <point x="1403.8895453432438" y="1413.0" />
+      <point x="1133.4728786765772" y="1413.0" />
+      <point x="79.66666666666674" y="112.5" />
+    </edge>
+    <edge source="Main" target="entities.Rating">
+      <point x="72.0" y="-26.5" />
+      <point x="1780.9988612875584" y="3027.0" />
+      <point x="1811.5304444660508" y="3027.0" />
+      <point x="1811.5304444660508" y="753.0" />
+      <point x="1203.4312120099105" y="753.0" />
+      <point x="37.5" y="59.5" />
+    </edge>
     <edge source="entities.Seance" target="entities.Film">
-      <point x="-29.875" y="-112.5" />
-      <point x="1166.6241669083179" y="1118.0" />
-      <point x="744.5376226378615" y="1118.0" />
-      <point x="67.5" y="122.5" />
+      <point x="89.625" y="-112.5" />
+      <point x="-22.5" y="122.5" />
     </edge>
     <edge source="services.CashTransactions" target="entities.Ticket">
-      <point x="28.08333333333337" y="-111.5" />
-      <point x="970.3084167029136" y="2165.0" />
-      <point x="1019.8125392682812" y="2165.0" />
-      <point x="18.83333333333337" y="144.5" />
+      <point x="84.25" y="-111.5" />
+      <point x="1530.0874620099105" y="2217.0" />
+      <point x="1516.8895453432438" y="2217.0" />
+      <point x="18.833333333333258" y="144.5" />
     </edge>
     <edge source="Main" target="entities.Worker">
-      <point x="24.0" y="-26.5" />
-      <point x="128.2030098490029" y="2927.0" />
-      <point x="81.0" y="2927.0" />
-      <point x="81.0" y="2165.0" />
-      <point x="473.51492022066213" y="2165.0" />
-      <point x="473.51492022066213" y="1832.0" />
-      <point x="490.92365037939226" y="1832.0" />
-      <point x="-22.555555555555657" y="100.5" />
+      <point x="-56.0" y="-26.5" />
+      <point x="1652.9988612875584" y="3017.0" />
+      <point x="11.0" y="3017.0" />
+      <point x="11.0" y="2217.0" />
+      <point x="513.3517121647515" y="2217.0" />
+      <point x="513.3517121647515" y="1832.0" />
+      <point x="501.7961566091959" y="1832.0" />
+      <point x="-22.555555555555543" y="100.5" />
     </edge>
     <edge source="entities.Seances" target="entities.Seance">
-      <point x="54.25" y="-79.5" />
-      <point x="1348.354205934948" y="1463.0" />
-      <point x="1249.610278019429" y="1463.0" />
-      <point x="53.111111111111086" y="112.5" />
+      <point x="-54.25" y="-79.5" />
+      <point x="1041.1683020410228" y="1443.0" />
+      <point x="1027.2506564543548" y="1443.0" />
+      <point x="-26.555555555555657" y="112.5" />
     </edge>
     <edge source="java.lang.Enum" target="java.lang.Comparable">
       <point x="-65.75" y="-210.5" />
-      <point x="504.78762263786155" y="78.0" />
-      <point x="489.78762263786155" y="78.0" />
+      <point x="1100.1812120099105" y="78.0" />
+      <point x="1085.1812120099105" y="78.0" />
       <point x="0.0" y="26.5" />
     </edge>
     <edge source="services.MainService" target="entities.Film">
-      <point x="-135.94736842105272" y="-178.5" />
-      <point x="1037.1776315789473" y="2530.0" />
-      <point x="92.0" y="2530.0" />
-      <point x="92.0" y="1128.0" />
-      <point x="654.5376226378615" y="1128.0" />
-      <point x="-22.5" y="122.5" />
+      <point x="135.94736842105272" y="-178.5" />
+      <point x="1096.428208452165" y="2580.0" />
+      <point x="1742.0041286765772" y="2580.0" />
+      <point x="1742.0041286765772" y="1078.0" />
+      <point x="1188.4312120099105" y="1078.0" />
+      <point x="22.5" y="122.5" />
     </edge>
     <edge source="entities.Rating" target="java.lang.Enum">
       <point x="0.0" y="-59.5" />
       <point x="0.0" y="210.5" />
     </edge>
     <edge source="services.CheckerService" target="entities.Worker">
-      <point x="40.85714285714289" y="-111.5" />
-      <point x="360.872063077805" y="1822.0" />
-      <point x="445.81253926828117" y="1822.0" />
-      <point x="-67.66666666666674" y="100.5" />
+      <point x="-81.71428571428572" y="-111.5" />
+      <point x="616.609648672688" y="1822.0" />
+      <point x="569.4628232758625" y="1822.0" />
+      <point x="45.111111111111086" y="100.5" />
     </edge>
     <edge source="Main" target="services.MainService">
-      <point x="56.0" y="-26.5" />
-      <point x="160.2030098490029" y="2977.0" />
-      <point x="1244.875" y="2977.0" />
+      <point x="-24.0" y="-26.5" />
+      <point x="1684.9988612875584" y="2997.0" />
+      <point x="1032.2308400311124" y="2997.0" />
       <point x="71.75" y="178.5" />
     </edge>
     <edge source="entities.Hall" target="entities.Seat">
-      <point x="61.66666666666674" y="-112.5" />
-      <point x="1577.3917893045284" y="773.0" />
-      <point x="1562.3917893045284" y="773.0" />
-      <point x="46.66666666666674" y="79.5" />
+      <point x="0.0" y="-112.5" />
+      <point x="0.0" y="79.5" />
     </edge>
     <edge source="Main" target="entities.Film">
-      <point x="-40.0" y="-26.5" />
-      <point x="64.20300984900291" y="2967.0" />
-      <point x="37.0" y="2967.0" />
-      <point x="37.0" y="1118.0" />
-      <point x="609.5376226378615" y="1118.0" />
-      <point x="-67.5" y="122.5" />
+      <point x="40.0" y="-26.5" />
+      <point x="1748.9988612875584" y="3007.0" />
+      <point x="1789.5304444660508" y="3007.0" />
+      <point x="1789.5304444660508" y="1068.0" />
+      <point x="1233.4312120099105" y="1068.0" />
+      <point x="67.5" y="122.5" />
     </edge>
     <edge source="services.MainService" target="entities.Ticket">
-      <point x="0.0" y="-178.5" />
-      <point x="1173.125" y="2530.0" />
-      <point x="1164.104205934948" y="2530.0" />
-      <point x="1164.104205934948" y="1862.0" />
-      <point x="1057.479205934948" y="1862.0" />
-      <point x="56.5" y="144.5" />
+      <point x="105.73684210526312" y="-178.5" />
+      <point x="1066.2176821363755" y="2560.0" />
+      <point x="1680.2228786765772" y="2560.0" />
+      <point x="1680.2228786765772" y="1892.0" />
+      <point x="1554.5562120099105" y="1892.0" />
+      <point x="56.49999999999994" y="144.5" />
     </edge>
     <edge source="services.MainService" target="services.ManagerService">
-      <point x="60.42105263157896" y="-178.5" />
-      <point x="1233.546052631579" y="2480.0" />
-      <point x="1392.6626226378617" y="2480.0" />
-      <point x="-92.5" y="122.5" />
+      <point x="-75.52631578947376" y="-178.5" />
+      <point x="884.9545242416386" y="2540.0" />
+      <point x="323.2210798188007" y="2540.0" />
+      <point x="323.2210798188007" y="2207.0" />
+      <point x="245.60171216475146" y="2207.0" />
+      <point x="-85.75" y="122.5" />
     </edge>
     <edge source="entities.Ticket" target="entities.Visitor">
-      <point x="-94.16666666666666" y="-144.5" />
-      <point x="906.8125392682813" y="1443.0" />
-      <point x="298.8125" y="1443.0" />
-      <point x="62.8125" y="90.5" />
+      <point x="56.5" y="-144.5" />
+      <point x="1554.5562120099105" y="1453.0" />
+      <point x="1527.6600454980849" y="1453.0" />
+      <point x="-62.8125" y="90.5" />
     </edge>
     <edge source="services.ManagerService" target="entities.Seances">
-      <point x="-69.375" y="-122.5" />
-      <point x="1415.7876226378617" y="2155.0" />
-      <point x="1370.816705934948" y="2155.0" />
-      <point x="1370.816705934948" y="1892.0" />
-      <point x="1380.904205934948" y="1892.0" />
-      <point x="86.80000000000007" y="79.5" />
+      <point x="147.0" y="-122.5" />
+      <point x="478.35171216475146" y="1842.0" />
+      <point x="1008.618302041023" y="1842.0" />
+      <point x="-86.79999999999995" y="79.5" />
     </edge>
     <edge source="entities.Ticket" target="entities.Hall">
-      <point x="18.833333333333314" y="-144.5" />
-      <point x="1019.8125392682812" y="1463.0" />
-      <point x="1006.4792059349479" y="1463.0" />
-      <point x="1006.4792059349479" y="1148.0" />
-      <point x="1454.058455971195" y="1148.0" />
-      <point x="-61.66666666666674" y="112.5" />
+      <point x="-18.833333333333258" y="-144.5" />
+      <point x="1479.2228786765772" y="1443.0" />
+      <point x="1468.4725454980849" y="1443.0" />
+      <point x="1468.4725454980849" y="1088.0" />
+      <point x="372.77843423213267" y="1088.0" />
+      <point x="82.22222222222217" y="112.5" />
     </edge>
     <edge source="services.CashTransactions" target="services.SellerService">
-      <point x="-84.25" y="-111.5" />
-      <point x="857.9750833695803" y="2165.0" />
-      <point x="824.1042059349479" y="2165.0" />
-      <point x="128.625" y="100.5" />
+      <point x="-140.41666666666652" y="-111.5" />
+      <point x="1305.420795343244" y="2217.0" />
+      <point x="1224.4312120099105" y="2217.0" />
+      <point x="42.875" y="100.5" />
     </edge>
     <edge source="entities.Cinema" target="entities.Hall">
       <point x="-40.25" y="-90.5" />
-      <point x="1731.4126226378617" y="1892.0" />
-      <point x="1763.6936113527624" y="1892.0" />
-      <point x="1763.6936113527624" y="1078.0" />
-      <point x="1556.8362337489727" y="1078.0" />
-      <point x="41.111111111111086" y="112.5" />
+      <point x="94.75" y="1118.0" />
+      <point x="249.4451008987994" y="1118.0" />
+      <point x="-41.111111111111114" y="112.5" />
     </edge>
     <edge source="services.CheckerService" target="entities.Ticket">
-      <point x="122.57142857142844" y="-111.5" />
-      <point x="442.5863487920906" y="1842.0" />
-      <point x="906.8125392682813" y="1842.0" />
-      <point x="-94.16666666666666" y="144.5" />
+      <point x="122.57142857142856" y="-111.5" />
+      <point x="820.8953629584023" y="1872.0" />
+      <point x="1403.8895453432438" y="1872.0" />
+      <point x="-94.16666666666674" y="144.5" />
     </edge>
     <edge source="services.MainService" target="entities.Hall">
-      <point x="90.63157894736844" y="-178.5" />
-      <point x="1263.7565789473683" y="2500.0" />
-      <point x="1680.6626226378617" y="2500.0" />
-      <point x="1680.6626226378617" y="1088.0" />
-      <point x="1536.2806781934173" y="1088.0" />
-      <point x="20.555555555555657" y="112.5" />
+      <point x="-135.94736842105272" y="-178.5" />
+      <point x="824.5334716100597" y="2580.0" />
+      <point x="22.0" y="2580.0" />
+      <point x="22.0" y="1098.0" />
+      <point x="208.33398978768832" y="1098.0" />
+      <point x="-82.22222222222217" y="112.5" />
     </edge>
     <edge source="java.lang.Enum" target="java.io.Serializable">
       <point x="65.75" y="-210.5" />
-      <point x="636.2876226378615" y="78.0" />
-      <point x="651.2876226378615" y="78.0" />
+      <point x="1231.6812120099105" y="78.0" />
+      <point x="1246.6812120099105" y="78.0" />
       <point x="0.0" y="14.5" />
     </edge>
-    <edge source="Main" target="entities.Ticket">
-      <point x="72.0" y="-26.5" />
-      <point x="176.2030098490029" y="2987.0" />
-      <point x="1877.1889384273352" y="2987.0" />
-      <point x="1877.1889384273352" y="1802.0" />
-      <point x="1095.1458726016144" y="1802.0" />
-      <point x="94.16666666666663" y="144.5" />
-    </edge>
     <edge source="services.MainService" target="entities.Visitor">
-      <point x="-120.84210526315792" y="-178.5" />
-      <point x="1052.282894736842" y="2520.0" />
-      <point x="114.0" y="2520.0" />
-      <point x="114.0" y="1463.0" />
-      <point x="198.3125" y="1463.0" />
-      <point x="-37.6875" y="90.5" />
+      <point x="120.84210526315792" y="-178.5" />
+      <point x="1081.3229452942703" y="2570.0" />
+      <point x="1691.2228786765772" y="2570.0" />
+      <point x="1691.2228786765772" y="1413.0" />
+      <point x="1628.1600454980849" y="1413.0" />
+      <point x="37.6875" y="90.5" />
+    </edge>
+    <edge source="Main" target="entities.Ticket">
+      <point x="-8.0" y="-26.5" />
+      <point x="1700.9988612875584" y="2977.0" />
+      <point x="1756.5304444660508" y="2977.0" />
+      <point x="1756.5304444660508" y="1882.0" />
+      <point x="1592.2228786765772" y="1882.0" />
+      <point x="94.16666666666669" y="144.5" />
     </edge>
     <edge source="services.MainService" target="entities.Seances">
       <point x="30.21052631578948" y="-178.5" />
-      <point x="1203.3355263157894" y="2460.0" />
-      <point x="1278.6626226378617" y="2460.0" />
-      <point x="1278.6626226378617" y="1882.0" />
-      <point x="1294.104205934948" y="1882.0" />
+      <point x="990.6913663469018" y="2580.0" />
+      <point x="999.5562120099105" y="2580.0" />
+      <point x="999.5562120099105" y="1862.0" />
+      <point x="1095.4183020410228" y="1862.0" />
       <point x="0.0" y="79.5" />
     </edge>
     <edge source="services.ManagerService" target="entities.Hall">
-      <point x="115.625" y="-122.5" />
-      <point x="1600.7876226378617" y="2155.0" />
-      <point x="1556.9334167029137" y="2155.0" />
-      <point x="1556.9334167029137" y="1098.0" />
-      <point x="1515.7251226378617" y="1098.0" />
+      <point x="-147.0" y="-122.5" />
+      <point x="184.35171216475146" y="1782.0" />
+      <point x="275.8460798188007" y="1782.0" />
+      <point x="275.8460798188007" y="1118.0" />
+      <point x="290.5562120099105" y="1118.0" />
       <point x="0.0" y="112.5" />
     </edge>
     <edge source="services.CashTransactions" target="entities.Visitor">
-      <point x="-28.083333333333314" y="-111.5" />
-      <point x="914.141750036247" y="2165.0" />
-      <point x="877.4792059349479" y="2165.0" />
-      <point x="877.4792059349479" y="1453.0" />
-      <point x="273.6875" y="1453.0" />
-      <point x="37.6875" y="90.5" />
-    </edge>
-    <edge source="services.ManagerService" target="entities.Cinema">
-      <point x="161.875" y="-122.5" />
-      <point x="1647.0376226378617" y="2165.0" />
-      <point x="1717.995955971195" y="2165.0" />
-      <point x="-53.66666666666674" y="90.5" />
+      <point x="140.4166666666668" y="-111.5" />
+      <point x="1586.2541286765772" y="2217.0" />
+      <point x="1636.5041286765772" y="2217.0" />
+      <point x="1636.5041286765772" y="1423.0" />
+      <point x="1603.0350454980849" y="1423.0" />
+      <point x="12.5625" y="90.5" />
     </edge>
     <edge source="entities.Film" target="entities.Rating">
       <point x="-67.5" y="-122.5" />
-      <point x="609.5376226378615" y="773.0" />
-      <point x="578.0376226378615" y="773.0" />
-      <point x="7.5" y="59.5" />
+      <point x="1098.4312120099105" y="773.0" />
+      <point x="1158.4312120099105" y="773.0" />
+      <point x="-7.5" y="59.5" />
     </edge>
     <edge source="services.CheckerService" target="entities.Hall">
-      <point x="0.0" y="-111.5" />
-      <point x="320.01492022066213" y="1802.0" />
-      <point x="357.99999999999994" y="1802.0" />
-      <point x="357.99999999999994" y="1138.0" />
-      <point x="1433.5029004156395" y="1138.0" />
-      <point x="-82.22222222222217" y="112.5" />
+      <point x="-40.85714285714289" y="-111.5" />
+      <point x="657.4667915298307" y="1832.0" />
+      <point x="671.1675083902293" y="1832.0" />
+      <point x="671.1675083902293" y="1118.0" />
+      <point x="311.11176756546604" y="1118.0" />
+      <point x="20.555555555555543" y="112.5" />
     </edge>
     <edge source="services.CashTransactions" target="entities.Seance">
-      <point x="84.25" y="-111.5" />
-      <point x="1026.4750833695803" y="2155.0" />
-      <point x="1142.104205934948" y="2155.0" />
-      <point x="1142.104205934948" y="1463.0" />
-      <point x="1169.9436113527624" y="1463.0" />
-      <point x="-26.555555555555543" y="112.5" />
+      <point x="28.083333333333258" y="-111.5" />
+      <point x="1473.9207953432438" y="2187.0" />
+      <point x="1374.5562120099105" y="2187.0" />
+      <point x="1374.5562120099105" y="1423.0" />
+      <point x="1106.9173231210216" y="1423.0" />
+      <point x="53.111111111111086" y="112.5" />
     </edge>
     <edge source="Main" target="entities.Visitor">
-      <point x="-24.0" y="-26.5" />
-      <point x="80.20300984900291" y="2957.0" />
-      <point x="48.0" y="2957.0" />
-      <point x="48.0" y="1443.0" />
-      <point x="148.0625" y="1443.0" />
-      <point x="-87.9375" y="90.5" />
+      <point x="8.0" y="-26.5" />
+      <point x="1716.9988612875584" y="2987.0" />
+      <point x="1767.5304444660508" y="2987.0" />
+      <point x="1767.5304444660508" y="1403.0" />
+      <point x="1653.2850454980849" y="1403.0" />
+      <point x="62.8125" y="90.5" />
     </edge>
     <edge source="services.MainService" target="entities.Seance">
-      <point x="15.105263157894797" y="-178.5" />
-      <point x="1188.2302631578948" y="2520.0" />
-      <point x="1175.104205934948" y="2520.0" />
-      <point x="1175.104205934948" y="1463.0" />
-      <point x="1196.4991669083179" y="1463.0" />
-      <point x="0.0" y="112.5" />
+      <point x="0.0" y="-178.5" />
+      <point x="960.4808400311124" y="2490.0" />
+      <point x="886.3183020410229" y="2490.0" />
+      <point x="886.3183020410229" y="1443.0" />
+      <point x="1000.6951008987994" y="1443.0" />
+      <point x="-53.111111111111086" y="112.5" />
     </edge>
     <edge source="services.CashTransactions" target="entities.Seances">
-      <point x="140.41666666666663" y="-111.5" />
-      <point x="1082.6417500362468" y="2165.0" />
-      <point x="1153.104205934948" y="2165.0" />
-      <point x="1153.104205934948" y="1892.0" />
-      <point x="1250.7042059349478" y="1892.0" />
-      <point x="-43.39999999999998" y="79.5" />
+      <point x="-28.083333333333258" y="-111.5" />
+      <point x="1417.7541286765772" y="2197.0" />
+      <point x="1363.5562120099105" y="2197.0" />
+      <point x="1363.5562120099105" y="1852.0" />
+      <point x="1182.218302041023" y="1852.0" />
+      <point x="86.80000000000007" y="79.5" />
     </edge>
     <edge source="entities.Seance" target="entities.Hall">
-      <point x="89.625" y="-112.5" />
-      <point x="1286.1241669083179" y="1168.0" />
-      <point x="1495.169567082306" y="1168.0" />
-      <point x="-20.555555555555657" y="112.5" />
+      <point x="-29.875" y="-112.5" />
+      <point x="1023.9312120099105" y="1098.0" />
+      <point x="352.22287867657724" y="1098.0" />
+      <point x="61.666666666666686" y="112.5" />
     </edge>
     <edge source="entities.Ticket" target="entities.Rating">
-      <point x="-18.83333333333337" y="-144.5" />
-      <point x="982.1458726016145" y="1463.0" />
-      <point x="995.4792059349479" y="1463.0" />
-      <point x="995.4792059349479" y="753.0" />
-      <point x="608.0376226378615" y="753.0" />
-      <point x="37.5" y="59.5" />
+      <point x="18.833333333333258" y="-144.5" />
+      <point x="1516.8895453432438" y="1433.0" />
+      <point x="1479.4725454980849" y="1433.0" />
+      <point x="1479.4725454980849" y="763.0" />
+      <point x="1188.4312120099105" y="763.0" />
+      <point x="22.5" y="59.5" />
     </edge>
     <edge source="services.CheckerService" target="entities.Visitor">
-      <point x="-81.71428571428578" y="-111.5" />
-      <point x="238.30063450637635" y="1802.0" />
-      <point x="223.4375" y="1802.0" />
-      <point x="-12.5625" y="90.5" />
+      <point x="81.71428571428572" y="-111.5" />
+      <point x="780.0382201012594" y="1832.0" />
+      <point x="810.4310772441166" y="1832.0" />
+      <point x="810.4310772441166" y="1453.0" />
+      <point x="1502.5350454980849" y="1453.0" />
+      <point x="-87.9375" y="90.5" />
     </edge>
     <edge source="services.SellerService" target="entities.Seances">
-      <point x="147.0" y="-100.5" />
-      <point x="842.4792059349479" y="1882.0" />
-      <point x="1207.304205934948" y="1882.0" />
-      <point x="-86.79999999999995" y="79.5" />
+      <point x="-49.0" y="-100.5" />
+      <point x="1132.5562120099105" y="1862.0" />
+      <point x="1138.818302041023" y="1862.0" />
+      <point x="43.40000000000009" y="79.5" />
     </edge>
     <edge source="services.SellerService" target="entities.Visitor">
-      <point x="-49.0" y="-100.5" />
-      <point x="646.4792059349479" y="1832.0" />
-      <point x="665.2213891305403" y="1832.0" />
-      <point x="665.2213891305403" y="1463.0" />
-      <point x="248.5625" y="1463.0" />
-      <point x="12.5625" y="90.5" />
+      <point x="147.0" y="-100.5" />
+      <point x="1328.5562120099105" y="1902.0" />
+      <point x="1625.5041286765772" y="1902.0" />
+      <point x="1625.5041286765772" y="1433.0" />
+      <point x="1577.9100454980849" y="1433.0" />
+      <point x="-12.5625" y="90.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.34574898640301194" x="1514.523958119227" y="1217.9563129472874" />
+  <settings layout="Hierarchic Group" zoom="0.4163638807372632" x="1132.6274261084877" y="2347.3902629075023" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

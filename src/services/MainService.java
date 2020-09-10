@@ -2,6 +2,7 @@ package services;
 
 import entities.*;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public final class MainService {
@@ -34,10 +35,29 @@ public final class MainService {
     }
 
     public void addSeance(Hall hall, Film film, Date date, double price) {
+        if(!myCinema.isHall(hall)) {
+            System.out.println("There is no such hall");
+            return;
+        }
+
         managerService.addSeance(seances, hall, film, date, price);
         System.out.println("Manager " + managerService.getName() + " added a seance in hall '" +
-                hall.getName() + "'. The film is '" + film.getName() + "'. The price for ticket is: " +
-                price);
+                hall.getName() + "' scheduled to: " + date + ".\nThe film is '" + film.getName() +
+                "'.\nThe price for a ticket is: " + price);
+    }
+
+    public String getFilmSeancesInfo(Film film) {
+        System.out.println("Seances for '" + film.getName() + "': ");
+        ArrayList<Seance> filmSeances = cashTransactions.getSellerService().filmSeancesInfo(seances, film);
+        if(filmSeances.isEmpty())
+            return "There are no seances for this film.";
+        StringBuilder stringBuilder = new StringBuilder();
+        for (Seance s :
+                filmSeances) {
+            stringBuilder.append("Date: "
+                    + s.getDate() + ". Hall: " + s.getHall().getName() + ". Price: " + s.getPrice() + "\n");
+        }
+        return stringBuilder.toString();
     }
 
     public Ticket sellTicket(Seance seance, int lineIndex, int seatIndex, Visitor visitor) {

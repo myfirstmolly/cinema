@@ -11,10 +11,7 @@ public final class ManagerService {
         this.manager = manager;
     }
 
-    public Seance createSeance(Cinema cinema, Hall hall, Film film, Date date, double price) {
-        if(!cinema.isHall(hall))
-            throw new IllegalArgumentException("There is no such hall");
-
+    public Seance createSeance(Hall hall, Film film, Date date, double price) {
         return new Seance(hall, film, date, price);
     }
 

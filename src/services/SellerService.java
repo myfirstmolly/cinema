@@ -2,6 +2,8 @@ package services;
 
 import entities.*;
 
+import java.util.ArrayList;
+
 public final class SellerService {
 
     private Worker seller;
@@ -12,6 +14,18 @@ public final class SellerService {
 
     public void setSeatTaken(Seance seance, int lineIndex, int seatIndex) {
         seance.getHall().getSeat(lineIndex, seatIndex).setTaken();
+    }
+
+    public ArrayList<Seance> filmSeancesInfo (Seances seances, Film film) {
+        ArrayList<Seance> filmSeances = new ArrayList<>();
+
+        for (Seance temp :
+                seances.getSeances()) {
+            if (temp.getFilm().equals(film))
+                filmSeances.add(temp);
+        }
+
+        return filmSeances;
     }
 
     public double getSalary () {

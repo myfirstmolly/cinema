@@ -22,6 +22,10 @@ public final class CashTransactions {
         return ticket;
     }
 
+    public SellerService getSellerService() {
+        return sellerService;
+    }
+
     public double getSalary() {
         return sellerService.getSalary();
     }

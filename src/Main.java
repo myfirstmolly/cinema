@@ -23,12 +23,18 @@ public class Main {
                 "Danny Boyle", 1996, Rating.NC17);
         Film seven = new Film("Se7en", "Crime thriller", "David Fincher",
                 1995, Rating.R);
-        Date date = new Date(2020, Calendar.NOVEMBER, 18, 16, 30);
+        Date date1 = new Date(2020, Calendar.NOVEMBER, 18, 16, 30);
+        Date date2 = new Date(2020, Calendar.NOVEMBER, 19, 15, 30);
 
-        mainService.addSeance(mainService.getHall(1), trainspotting, date, 300);
-        mainService.addSeance(mainService.getHall(0), seven, date, 400);
+        mainService.addSeance(mainService.getHall(1), trainspotting, date1, 300);
+        mainService.addSeance(mainService.getHall(0), seven, date1, 400);
+        mainService.addSeance(mainService.getHall(1), trainspotting, date2, 300);
 
         System.out.println();
+
+        System.out.println("Seances info:");
+        System.out.println(mainService.getFilmSeancesInfo(trainspotting));
+        System.out.println(mainService.getFilmSeancesInfo(seven));
 
         Visitor visitor1 = new Visitor("Marie", 18, 500);
         Visitor visitor2 = new Visitor("Dan", 13, 400);
@@ -40,13 +46,9 @@ public class Main {
 
         System.out.println();
 
-        //valid ticket
         mainService.checkTicket(ticket1, visitor1, mainService.getHall(1));
-        //invalid ticket (age doesn't match rating)
         mainService.checkTicket(ticket2, visitor2, mainService.getHall(0));
-        //invalid ticket (visitor doesn't match to visitor written on ticket)
         mainService.checkTicket(ticket3, visitor2, mainService.getHall(1));
-        //invalid ticket (wrong hall)
         mainService.checkTicket(ticket3, visitor3, mainService.getHall(2));
 
         System.out.println();
